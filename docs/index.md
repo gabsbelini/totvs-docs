@@ -23,19 +23,6 @@ Por fim, no ambiente selecione `environment`.
 O ambiente utilizado por clientes será sempre o `environment`, salvo exceções. Isso porque os outros 2 ambientes `env01` e `env02` são constantemente usados para testes pela equipe de TI.
 
 
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
 ## Índice de Módulos
 * 01 - [Ativo Fixo](http://127.0.0.1:8000/modulo-01/) (SIGAATF)
 * 02 - [Compras](http://127.0.0.1:8000/modulo-02/) (SIGACOM)
