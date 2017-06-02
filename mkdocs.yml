@@ -1,0 +1,26 @@
+site_name: TOTVS SmartClient
+pages:
+    - Introdução: index.md
+    - About: about.md
+    - Módulo 1: modulo-01.md
+    - Módulo 2: modulo-02.md
+    - Módulo 4: modulo-04.md
+    - Módulo 5: modulo-05.md
+    - Módulo 6: modulo-06.md
+    - Módulo 7: modulo-07.md
+    - Módulo 8: modulo-08.md
+    - Módulo 10: modulo-10.md
+    - Módulo 11: modulo-11.md
+    - Módulo 12: modulo-12.md
+    - Módulo 13: modulo-13.md
+    - Módulo 14: modulo-14.md
+    - Módulo 16: modulo-16.md
+    - Módulo 17: modulo-17.md
+    - Módulo 18: modulo-18.md
+    - Módulo 19: modulo-19.md
+    - Módulo 20: modulo-20.md
+    - Módulo 21: modulo-21.md
+    - Módulo 22: modulo-22.md
+    - Módulo 23: modulo-23.md
+    - Módulo 24: modulo-24.md
+theme: material
