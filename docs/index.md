@@ -27,7 +27,7 @@ O ambiente utilizado por clientes será sempre o `environment`, salvo exceções
 * 01 - [Ativo Fixo](http://127.0.0.1:8000/modulo-01/) (SIGAATF)
 * 02 - [Compras](http://127.0.0.1:8000/modulo-02/) (SIGACOM)
 * 04 - [Estoque/Custos](http://127.0.0.1:8000/modulo-04/) (SIGAEST)
-* 05 - [Faturamento](http://127.0.0.1:8000/modulo-05/) (SIGAFAT)
+* 05 - [Faturamento](https://gabsbelini.github.io/totvs-docs/modulo-05/) (SIGAFAT)
 * 06 - [Financeiro](http://127.0.0.1:8000/modulo-06/) (SIGAFIN)
 * 07 - [Gestão de Pessoal](http://127.0.0.1:8000/modulo-07/) (SIGAGPE)
 * 08 - [Livros Fiscais](http://127.0.0.1:8000/modulo-08/) (SIGAFIS)
