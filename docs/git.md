@@ -17,7 +17,9 @@ Como dito acima, o Git possui muitas funcionalidades, porém a princípio apenas
 Execute o seguinte comando `sudo apt-get install git`
 
 ### Instalação Windows
-
+1. Criar uma conta no [github](www.github.com);
+2. Instalar o `Git`, basta clicar em [git](https://git-scm.com/download/win);
+3. Entre no diretório onde deseja que o repositório seja clonado e digite `git clone link_do_repositorio`. Uma cópia do repositório será copiada para seu computador local, para trabalhar nela basta fazer modificações e seguir o 'worflow' descrito na seção [Resumindo](##Resumindo) 
 
 ### Como usar?
 
