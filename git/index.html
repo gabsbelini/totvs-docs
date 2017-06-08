@@ -208,6 +208,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#instalacao-linux" title="Instalação Linux" class="md-nav__link">
+    Instalação Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-windows" title="Instalação Windows" class="md-nav__link">
+    Instalação Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-usar" title="Como usar?" class="md-nav__link">
+    Como usar?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumindo" title="Resumindo" class="md-nav__link">
+    Resumindo
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -510,6 +538,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#instalacao-linux" title="Instalação Linux" class="md-nav__link">
+    Instalação Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-windows" title="Instalação Windows" class="md-nav__link">
+    Instalação Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-usar" title="Como usar?" class="md-nav__link">
+    Como usar?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumindo" title="Resumindo" class="md-nav__link">
+    Resumindo
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -534,8 +590,21 @@
 </em> Permitir que várias pessoas trabalhem em conjunto em um mesmo projeto minimizando conflitos;
 * Salvar o código fonte na nuvem, fornecendo assim mais segurança da informação e permitindo o acesso a esse código de qualquer lugar que possua conexão com a internet.</p>
 <h2 id="como-usar-o-git">Como usar o Git?</h2>
-<p>Como dito acima, o Git possui muitas funcionalidades, porém a princípio apenas as mais básicas serão aplicadas ao projeto.</p>
-<p>Caso já exista</p>
+<p>Como dito acima, o Git possui muitas funcionalidades, porém a princípio apenas as mais básicas serão aplicadas no projeto.</p>
+<h2 id="instalacao-linux">Instalação Linux</h2>
+<p>Execute o seguinte comando <code>sudo apt-get install git</code></p>
+<h2 id="instalacao-windows">Instalação Windows</h2>
+<h2 id="como-usar">Como usar?</h2>
+<p>Essa seção parte do princípio que o usuário já tenha o <code>git</code> instalado em seu computador e também tenha uma conta no github configurada.</p>
+<p>Veremos 4 comandos principais, sendo eles o <code>git add</code>, <code>git commit</code>, <code>git push</code> e também o <code>git pull</code>.</p>
+<ul>
+<li><code>git add</code>: É usado para adicionar arquivos para serem monitorados pelo <code>git</code>. Toda vez que um arquivo novo for criado e o usuário quiser que ele seja monitorado pelo git, basta executar o comando <code>git add nome_do_arquivo</code>. Para praticidade, caso queira que todos os arquivos dentro daquele diretório sejam adicionados ao <code>git</code>, use <code>git add -A</code>;</li>
+<li><code>git commit</code>: É usado como um marcador de versão pelo git. Cada vez que o comando <code>git commit</code> é executado, um ponto de <code>commit</code> é criado. Esses pontos de <code>commit</code> são marcadores os quais o usuário pode usá-los para reverter alterações usando seus identificadores únicos. Ex.: <code>git revert --hard endereço_do_ponto_de_commit</code>. Esse comando irá reverter todas as alterações feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando <code>git status</code>. Para finalizar, o comando <code>git commit</code> exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria: <code>git commit -m "Alteração no cadastro de produtos"</code>.</li>
+<li><code>git push</code>: É com esse comando que todas as alterações feitas a princípio localmente são enviadas para a nuvem. Com esse comando os arquivos estarão disponíveis no link do repositório do <code>github</code> criado.</li>
+</ul>
+<h2 id="resumindo">Resumindo</h2>
+<p>O 'fluxograma' do uso do <code>git</code> seguirá na grande maioria dos casos a seguinte sequência:<code>git pull</code> -&gt; <code>git add -A</code> -&gt; <code>git commit -m "mensagem"</code> -&gt; <code>git push</code>.</p>
+<p>O <code>git pull</code> é necessário para manter sempre a integridade dos dados na máquina local.</p>
                 
                   
                 
