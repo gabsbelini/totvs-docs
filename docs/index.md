@@ -46,4 +46,4 @@ O ambiente utilizado por clientes será sempre o `environment`, salvo exceções
 * 23 - [Front Loja](https://gabsbelini.github.io/totvs-docs/modulo-23/) (SIGAFRT)
 * 24 - [Controle de Documentos](https://gabsbelini.github.io/totvs-docs/modulo-24/) (SIGAQDO)
 ## Ferramentas Adicionais
-* 1- Git
+* 1- [Git](https://gabsbelini.github.io/totvs-docs/git/)
