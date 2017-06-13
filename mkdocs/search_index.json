@@ -1,228 +1,238 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "Come\u00e7ando a usar o TOTVS\n\n\nPara uma documenta\u00e7\u00e3o completa visite: \nTOTVS\n.\n\n\nComo Come\u00e7ar\n\n\nPara abrir o TOTVS basta executar o arquivo SmartClient. A tela inicial do TOTVS pede para que o usu\u00e1rio preencha 3 campos:\n\n\nNo campo \nPrograma Inicial\n entre com \nSIGAMDI\n ou o nome do m\u00f3dulo que deseja acessar, caso souber, Ex.:\nSIGAFAT\n.\n\n\n\n\nPrograma Inicial: \nSIGAMDI\n;\n\n\n\n\nNa comunica\u00e7\u00e3o com o cliente selecione  \nherint\n.\n\n\n\n\nComunica\u00e7\u00e3o no cliente: \nherint\n;\n\n\n\n\nPor fim, no ambiente selecione \nenvironment\n.\n\n\n\n\nAmbiente no servidor: \nenvironment\n.\n\n\n\n\nO ambiente utilizado por clientes ser\u00e1 sempre o \nenvironment\n, salvo exce\u00e7\u00f5es. Isso porque os outros 2 ambientes \nenv01\n e \nenv02\n s\u00e3o constantemente usados para testes pela equipe de TI.\n\n\n\u00cdndice de M\u00f3dulos\n\n\n\n\n01 - \nAtivo Fixo\n (SIGAATF)\n\n\n02 - \nCompras\n (SIGACOM)\n\n\n04 - \nEstoque/Custos\n (SIGAEST)\n\n\n05 - \nFaturamento\n (SIGAFAT)\n\n\n06 - \nFinanceiro\n (SIGAFIN)\n\n\n07 - \nGest\u00e3o de Pessoal\n (SIGAGPE)\n\n\n08 - \nLivros Fiscais\n (SIGAFIS)\n\n\n10 - \nPlanej. e Controle de Produ\u00e7\u00e3o\n (SIGAPCP)\n\n\n11 - \nVe\u00edculos\n (SIGAVEI)\n\n\n12 - \nControle de Lojas\n (SIGALOJA)\n\n\n13 - \nCall Center\n (SIGATMK)\n\n\n14 - \nOficina\n (SIGAOFI)\n\n\n16 - \nPonto Eletronico\n (SIGAPON)\n\n\n17 - \nEasy Import Control\n (SIGAEIC)\n\n\n18 - \nTerminal de Consulta do Funcion\u00e1rio\n (SIGATCF)\n\n\n19 - \nManuten\u00e7\u00e3o de Ativos\n (SIGAMNT)\n\n\n20 - \nRecrutamento e Sele\u00e7\u00e3o Pessoal\n (SIGARSP)\n\n\n21 - \nInspe\u00e7\u00e3o de Entradas\n (SIGAQIE)\n\n\n22 - \nMetrologia\n (SIGAQMT)\n\n\n23 - \nFront Loja\n (SIGAFRT)\n\n\n24 - \nControle de Documentos\n (SIGAQDO)\n\n\n\n\nFerramentas Adicionais\n\n\n\n\n1- \nGit",
+            "location": "/", 
+            "text": "Come\u00e7ando a usar o TOTVS\n\n\nPara uma documenta\u00e7\u00e3o completa visite: \nTOTVS\n.\n\n\nComo Come\u00e7ar\n\n\nPara abrir o TOTVS basta executar o arquivo SmartClient. A tela inicial do TOTVS pede para que o usu\u00e1rio preencha 3 campos:\n\n\nNo campo \nPrograma Inicial\n entre com \nSIGAMDI\n ou o nome do m\u00f3dulo que deseja acessar, caso souber, Ex.:\nSIGAFAT\n.\n\n\n\n\nPrograma Inicial: \nSIGAMDI\n;\n\n\n\n\nNa comunica\u00e7\u00e3o com o cliente selecione  \nherint\n.\n\n\n\n\nComunica\u00e7\u00e3o no cliente: \nherint\n;\n\n\n\n\nPor fim, no ambiente selecione \nenvironment\n.\n\n\n\n\nAmbiente no servidor: \nenvironment\n.\n\n\n\n\nO ambiente utilizado por clientes ser\u00e1 sempre o \nenvironment\n, salvo exce\u00e7\u00f5es. Isso porque os outros 2 ambientes \nenv01\n e \nenv02\n s\u00e3o constantemente usados para testes pela equipe de TI.\n\n\n\u00cdndice de M\u00f3dulos\n\n\n\n\n01 - \nAtivo Fixo\n (SIGAATF)\n\n\n02 - \nCompras\n (SIGACOM)\n\n\n04 - \nEstoque/Custos\n (SIGAEST)\n\n\n05 - \nFaturamento\n (SIGAFAT)\n\n\n06 - \nFinanceiro\n (SIGAFIN)\n\n\n07 - \nGest\u00e3o de Pessoal\n (SIGAGPE)\n\n\n08 - \nLivros Fiscais\n (SIGAFIS)\n\n\n10 - \nPlanej. e Controle de Produ\u00e7\u00e3o\n (SIGAPCP)\n\n\n11 - \nVe\u00edculos\n (SIGAVEI)\n\n\n12 - \nControle de Lojas\n (SIGALOJA)\n\n\n13 - \nCall Center\n (SIGATMK)\n\n\n14 - \nOficina\n (SIGAOFI)\n\n\n16 - \nPonto Eletronico\n (SIGAPON)\n\n\n17 - \nEasy Import Control\n (SIGAEIC)\n\n\n18 - \nTerminal de Consulta do Funcion\u00e1rio\n (SIGATCF)\n\n\n19 - \nManuten\u00e7\u00e3o de Ativos\n (SIGAMNT)\n\n\n20 - \nRecrutamento e Sele\u00e7\u00e3o Pessoal\n (SIGARSP)\n\n\n21 - \nInspe\u00e7\u00e3o de Entradas\n (SIGAQIE)\n\n\n22 - \nMetrologia\n (SIGAQMT)\n\n\n23 - \nFront Loja\n (SIGAFRT)\n\n\n24 - \nControle de Documentos\n (SIGAQDO)\n\n\n\n\nFerramentas Adicionais\n\n\n\n\n1- \nGit", 
             "title": "Introdu\u00e7\u00e3o"
-        },
+        }, 
         {
-            "location": "/#comecando-a-usar-o-totvs",
-            "text": "Para uma documenta\u00e7\u00e3o completa visite:  TOTVS .",
+            "location": "/#comecando-a-usar-o-totvs", 
+            "text": "Para uma documenta\u00e7\u00e3o completa visite:  TOTVS .", 
             "title": "Come\u00e7ando a usar o TOTVS"
-        },
+        }, 
         {
-            "location": "/#como-comecar",
-            "text": "Para abrir o TOTVS basta executar o arquivo SmartClient. A tela inicial do TOTVS pede para que o usu\u00e1rio preencha 3 campos:  No campo  Programa Inicial  entre com  SIGAMDI  ou o nome do m\u00f3dulo que deseja acessar, caso souber, Ex.: SIGAFAT .   Programa Inicial:  SIGAMDI ;   Na comunica\u00e7\u00e3o com o cliente selecione   herint .   Comunica\u00e7\u00e3o no cliente:  herint ;   Por fim, no ambiente selecione  environment .   Ambiente no servidor:  environment .   O ambiente utilizado por clientes ser\u00e1 sempre o  environment , salvo exce\u00e7\u00f5es. Isso porque os outros 2 ambientes  env01  e  env02  s\u00e3o constantemente usados para testes pela equipe de TI.",
+            "location": "/#como-comecar", 
+            "text": "Para abrir o TOTVS basta executar o arquivo SmartClient. A tela inicial do TOTVS pede para que o usu\u00e1rio preencha 3 campos:  No campo  Programa Inicial  entre com  SIGAMDI  ou o nome do m\u00f3dulo que deseja acessar, caso souber, Ex.: SIGAFAT .   Programa Inicial:  SIGAMDI ;   Na comunica\u00e7\u00e3o com o cliente selecione   herint .   Comunica\u00e7\u00e3o no cliente:  herint ;   Por fim, no ambiente selecione  environment .   Ambiente no servidor:  environment .   O ambiente utilizado por clientes ser\u00e1 sempre o  environment , salvo exce\u00e7\u00f5es. Isso porque os outros 2 ambientes  env01  e  env02  s\u00e3o constantemente usados para testes pela equipe de TI.", 
             "title": "Como Come\u00e7ar"
-        },
+        }, 
         {
-            "location": "/#indice-de-modulos",
-            "text": "01 -  Ativo Fixo  (SIGAATF)  02 -  Compras  (SIGACOM)  04 -  Estoque/Custos  (SIGAEST)  05 -  Faturamento  (SIGAFAT)  06 -  Financeiro  (SIGAFIN)  07 -  Gest\u00e3o de Pessoal  (SIGAGPE)  08 -  Livros Fiscais  (SIGAFIS)  10 -  Planej. e Controle de Produ\u00e7\u00e3o  (SIGAPCP)  11 -  Ve\u00edculos  (SIGAVEI)  12 -  Controle de Lojas  (SIGALOJA)  13 -  Call Center  (SIGATMK)  14 -  Oficina  (SIGAOFI)  16 -  Ponto Eletronico  (SIGAPON)  17 -  Easy Import Control  (SIGAEIC)  18 -  Terminal de Consulta do Funcion\u00e1rio  (SIGATCF)  19 -  Manuten\u00e7\u00e3o de Ativos  (SIGAMNT)  20 -  Recrutamento e Sele\u00e7\u00e3o Pessoal  (SIGARSP)  21 -  Inspe\u00e7\u00e3o de Entradas  (SIGAQIE)  22 -  Metrologia  (SIGAQMT)  23 -  Front Loja  (SIGAFRT)  24 -  Controle de Documentos  (SIGAQDO)",
+            "location": "/#indice-de-modulos", 
+            "text": "01 -  Ativo Fixo  (SIGAATF)  02 -  Compras  (SIGACOM)  04 -  Estoque/Custos  (SIGAEST)  05 -  Faturamento  (SIGAFAT)  06 -  Financeiro  (SIGAFIN)  07 -  Gest\u00e3o de Pessoal  (SIGAGPE)  08 -  Livros Fiscais  (SIGAFIS)  10 -  Planej. e Controle de Produ\u00e7\u00e3o  (SIGAPCP)  11 -  Ve\u00edculos  (SIGAVEI)  12 -  Controle de Lojas  (SIGALOJA)  13 -  Call Center  (SIGATMK)  14 -  Oficina  (SIGAOFI)  16 -  Ponto Eletronico  (SIGAPON)  17 -  Easy Import Control  (SIGAEIC)  18 -  Terminal de Consulta do Funcion\u00e1rio  (SIGATCF)  19 -  Manuten\u00e7\u00e3o de Ativos  (SIGAMNT)  20 -  Recrutamento e Sele\u00e7\u00e3o Pessoal  (SIGARSP)  21 -  Inspe\u00e7\u00e3o de Entradas  (SIGAQIE)  22 -  Metrologia  (SIGAQMT)  23 -  Front Loja  (SIGAFRT)  24 -  Controle de Documentos  (SIGAQDO)", 
             "title": "\u00cdndice de M\u00f3dulos"
-        },
+        }, 
         {
-            "location": "/#ferramentas-adicionais",
-            "text": "1-  Git",
+            "location": "/#ferramentas-adicionais", 
+            "text": "1-  Git", 
             "title": "Ferramentas Adicionais"
-        },
+        }, 
         {
-            "location": "/about/",
-            "text": "Quoniam aures origo lacertis\n\n\nRogant lumina saepe incipit festis Aethiopasque sic\n\n\nLorem markdownum femineusque consequitur ambierantque caeli orgia, nec gurgite\noperosa nititur ventris capitum capit: petere. \nCenaeo\n nunc mox; ora perque\nfertque, oravere meorum. Mihi patuisse mariti mens quoque per lucis quamquam\nauditque ferrumque visa. Ope nisi dotem astris feratis, mutua vobis traxit\ntempora arreptum et ferinos.\n\n\nFecit Peneosque \nconiciunt Cerealis\n ignotissima paulum omnia,\nvelit populi magno ceperat. Est remos sortibus accepti templa simul cognovit\nvultus. Sum auras fuit pariter et dura oscula quoniam timoris, \ndespectabat\nista\n, cautes. Vinaque gentes dicit, non pendere.\n\n\nSi Glauci Stheneleia formam defuit erat frontem\n\n\nCessere verbis est liventia Famem. Ait intus olim inguine \nossibus sine nec\n\ncernunt cecidit, et naiadum partimque, leaena, sunt flenda suis esse. Mare\n\ncetera\n; terris in mora miserande, abire Iovis posses, est, a in fuit\nMessenia negetur.\n\n\nif (64 + switch_path * infotainment(static.arp(89, webFlat))) {\n    andPublishing += cpm;\n    web_ics = 1;\n}\nvar hdv = data + 1 + finder / gif + sinkAdapter * inputGif + manet;\nfavicon.wrap(wordartKey.controlBox(cardDma.adsl_petaflops.ddr(and_host,\n        solid_on)), icsIso(3, powerpointBotnetUser));\nvar on = passiveServiceCold(4 + pmu, mirrored.character_nas_winsock(\n        batch_port_firewire)) - icq_san;\n\n\n\nVentorum videres Daphnidis penetrat veniam venisset est, pericula cognataque.\nSorores indignere; Lycaona cepere perceperat in \nmorbi\n, arbor cura est.\nHector in ergo inpulsum montibus tempora consumpta \nin tutius tu\n saepe.\n\n\nCerte virginibus inplent\n\n\nIovis poscimur adorat Orpheus. Anni est; ter \numida\n, optari; qui in!\n\n\nPeleus exspectatum, premunt, \nfoedera et\n, quod ruit.\nLabores fugaeque corpore, tu Cybeleia poterat mater, reminiscitur modo, et\nreluxit munera dolor.\n\n\ndriverAutoresponder(ipGuidIvr, blog);\nvar macStringDeprecated = designVram * bing(display);\nif (vle - 2) {\n    copyright(telecommunications_disk_ipod, maximize_lcd_box);\n    keystroke(graymail + onlineZifStandalone, tag, cpl_web + sata);\n} else {\n    case.memory_ssh = abend_scalable_applet(2);\n    type = card + 71 + maximize_frame + wpa;\n}\nif (vleVirus \n= process_compression + proxyUml) {\n    drop_index = 3;\n    pebibyte_horse_cell.fifoInterpreterBittorrent = model;\n    offlineRaid(native.manetTypeface(firmwareMnemonic, malwarePci, 123594));\n}\nif (simplex.card_io(definition(protectorCharacterBackbone, ram), packet(in),\n        noc_gigabit_io)) {\n    architecture *= parameterWindowsDigital;\n    captchaEncryption.vram *= webmaster;\n    rw(ics(newsgroup_png, textWhite, cdn));\n} else {\n    card_source_pdf *= sector(honeypot_it, meme_isp_cursor);\n}\n\n\n\nEgo mihi causam parentque levati! Si inulta \ntamen\n exspectat caelo fugacibus et\ncapiti tamen, aliquid mollito. Cycnorum non iras, temeraria fluctibus aurumque\ncursus et genitor.",
+            "location": "/about/", 
+            "text": "Quoniam aures origo lacertis\n\n\nRogant lumina saepe incipit festis Aethiopasque sic\n\n\nLorem markdownum femineusque consequitur ambierantque caeli orgia, nec gurgite\noperosa nititur ventris capitum capit: petere. \nCenaeo\n nunc mox; ora perque\nfertque, oravere meorum. Mihi patuisse mariti mens quoque per lucis quamquam\nauditque ferrumque visa. Ope nisi dotem astris feratis, mutua vobis traxit\ntempora arreptum et ferinos.\n\n\nFecit Peneosque \nconiciunt Cerealis\n ignotissima paulum omnia,\nvelit populi magno ceperat. Est remos sortibus accepti templa simul cognovit\nvultus. Sum auras fuit pariter et dura oscula quoniam timoris, \ndespectabat\nista\n, cautes. Vinaque gentes dicit, non pendere.\n\n\nSi Glauci Stheneleia formam defuit erat frontem\n\n\nCessere verbis est liventia Famem. Ait intus olim inguine \nossibus sine nec\n\ncernunt cecidit, et naiadum partimque, leaena, sunt flenda suis esse. Mare\n\ncetera\n; terris in mora miserande, abire Iovis posses, est, a in fuit\nMessenia negetur.\n\n\nif (64 + switch_path * infotainment(static.arp(89, webFlat))) {\n    andPublishing += cpm;\n    web_ics = 1;\n}\nvar hdv = data + 1 + finder / gif + sinkAdapter * inputGif + manet;\nfavicon.wrap(wordartKey.controlBox(cardDma.adsl_petaflops.ddr(and_host,\n        solid_on)), icsIso(3, powerpointBotnetUser));\nvar on = passiveServiceCold(4 + pmu, mirrored.character_nas_winsock(\n        batch_port_firewire)) - icq_san;\n\n\n\nVentorum videres Daphnidis penetrat veniam venisset est, pericula cognataque.\nSorores indignere; Lycaona cepere perceperat in \nmorbi\n, arbor cura est.\nHector in ergo inpulsum montibus tempora consumpta \nin tutius tu\n saepe.\n\n\nCerte virginibus inplent\n\n\nIovis poscimur adorat Orpheus. Anni est; ter \numida\n, optari; qui in!\n\n\nPeleus exspectatum, premunt, \nfoedera et\n, quod ruit.\nLabores fugaeque corpore, tu Cybeleia poterat mater, reminiscitur modo, et\nreluxit munera dolor.\n\n\ndriverAutoresponder(ipGuidIvr, blog);\nvar macStringDeprecated = designVram * bing(display);\nif (vle - 2) {\n    copyright(telecommunications_disk_ipod, maximize_lcd_box);\n    keystroke(graymail + onlineZifStandalone, tag, cpl_web + sata);\n} else {\n    case.memory_ssh = abend_scalable_applet(2);\n    type = card + 71 + maximize_frame + wpa;\n}\nif (vleVirus \n= process_compression + proxyUml) {\n    drop_index = 3;\n    pebibyte_horse_cell.fifoInterpreterBittorrent = model;\n    offlineRaid(native.manetTypeface(firmwareMnemonic, malwarePci, 123594));\n}\nif (simplex.card_io(definition(protectorCharacterBackbone, ram), packet(in),\n        noc_gigabit_io)) {\n    architecture *= parameterWindowsDigital;\n    captchaEncryption.vram *= webmaster;\n    rw(ics(newsgroup_png, textWhite, cdn));\n} else {\n    card_source_pdf *= sector(honeypot_it, meme_isp_cursor);\n}\n\n\n\nEgo mihi causam parentque levati! Si inulta \ntamen\n exspectat caelo fugacibus et\ncapiti tamen, aliquid mollito. Cycnorum non iras, temeraria fluctibus aurumque\ncursus et genitor.", 
             "title": "About"
-        },
+        }, 
         {
-            "location": "/about/#quoniam-aures-origo-lacertis",
-            "text": "",
+            "location": "/about/#quoniam-aures-origo-lacertis", 
+            "text": "", 
             "title": "Quoniam aures origo lacertis"
-        },
+        }, 
         {
-            "location": "/about/#rogant-lumina-saepe-incipit-festis-aethiopasque-sic",
-            "text": "Lorem markdownum femineusque consequitur ambierantque caeli orgia, nec gurgite\noperosa nititur ventris capitum capit: petere.  Cenaeo  nunc mox; ora perque\nfertque, oravere meorum. Mihi patuisse mariti mens quoque per lucis quamquam\nauditque ferrumque visa. Ope nisi dotem astris feratis, mutua vobis traxit\ntempora arreptum et ferinos.  Fecit Peneosque  coniciunt Cerealis  ignotissima paulum omnia,\nvelit populi magno ceperat. Est remos sortibus accepti templa simul cognovit\nvultus. Sum auras fuit pariter et dura oscula quoniam timoris,  despectabat\nista , cautes. Vinaque gentes dicit, non pendere.",
+            "location": "/about/#rogant-lumina-saepe-incipit-festis-aethiopasque-sic", 
+            "text": "Lorem markdownum femineusque consequitur ambierantque caeli orgia, nec gurgite\noperosa nititur ventris capitum capit: petere.  Cenaeo  nunc mox; ora perque\nfertque, oravere meorum. Mihi patuisse mariti mens quoque per lucis quamquam\nauditque ferrumque visa. Ope nisi dotem astris feratis, mutua vobis traxit\ntempora arreptum et ferinos.  Fecit Peneosque  coniciunt Cerealis  ignotissima paulum omnia,\nvelit populi magno ceperat. Est remos sortibus accepti templa simul cognovit\nvultus. Sum auras fuit pariter et dura oscula quoniam timoris,  despectabat\nista , cautes. Vinaque gentes dicit, non pendere.", 
             "title": "Rogant lumina saepe incipit festis Aethiopasque sic"
-        },
+        }, 
         {
-            "location": "/about/#si-glauci-stheneleia-formam-defuit-erat-frontem",
-            "text": "Cessere verbis est liventia Famem. Ait intus olim inguine  ossibus sine nec \ncernunt cecidit, et naiadum partimque, leaena, sunt flenda suis esse. Mare cetera ; terris in mora miserande, abire Iovis posses, est, a in fuit\nMessenia negetur.  if (64 + switch_path * infotainment(static.arp(89, webFlat))) {\n    andPublishing += cpm;\n    web_ics = 1;\n}\nvar hdv = data + 1 + finder / gif + sinkAdapter * inputGif + manet;\nfavicon.wrap(wordartKey.controlBox(cardDma.adsl_petaflops.ddr(and_host,\n        solid_on)), icsIso(3, powerpointBotnetUser));\nvar on = passiveServiceCold(4 + pmu, mirrored.character_nas_winsock(\n        batch_port_firewire)) - icq_san;  Ventorum videres Daphnidis penetrat veniam venisset est, pericula cognataque.\nSorores indignere; Lycaona cepere perceperat in  morbi , arbor cura est.\nHector in ergo inpulsum montibus tempora consumpta  in tutius tu  saepe.",
+            "location": "/about/#si-glauci-stheneleia-formam-defuit-erat-frontem", 
+            "text": "Cessere verbis est liventia Famem. Ait intus olim inguine  ossibus sine nec \ncernunt cecidit, et naiadum partimque, leaena, sunt flenda suis esse. Mare cetera ; terris in mora miserande, abire Iovis posses, est, a in fuit\nMessenia negetur.  if (64 + switch_path * infotainment(static.arp(89, webFlat))) {\n    andPublishing += cpm;\n    web_ics = 1;\n}\nvar hdv = data + 1 + finder / gif + sinkAdapter * inputGif + manet;\nfavicon.wrap(wordartKey.controlBox(cardDma.adsl_petaflops.ddr(and_host,\n        solid_on)), icsIso(3, powerpointBotnetUser));\nvar on = passiveServiceCold(4 + pmu, mirrored.character_nas_winsock(\n        batch_port_firewire)) - icq_san;  Ventorum videres Daphnidis penetrat veniam venisset est, pericula cognataque.\nSorores indignere; Lycaona cepere perceperat in  morbi , arbor cura est.\nHector in ergo inpulsum montibus tempora consumpta  in tutius tu  saepe.", 
             "title": "Si Glauci Stheneleia formam defuit erat frontem"
-        },
+        }, 
         {
-            "location": "/about/#certe-virginibus-inplent",
-            "text": "Iovis poscimur adorat Orpheus. Anni est; ter  umida , optari; qui in!  Peleus exspectatum, premunt,  foedera et , quod ruit.\nLabores fugaeque corpore, tu Cybeleia poterat mater, reminiscitur modo, et\nreluxit munera dolor.  driverAutoresponder(ipGuidIvr, blog);\nvar macStringDeprecated = designVram * bing(display);\nif (vle - 2) {\n    copyright(telecommunications_disk_ipod, maximize_lcd_box);\n    keystroke(graymail + onlineZifStandalone, tag, cpl_web + sata);\n} else {\n    case.memory_ssh = abend_scalable_applet(2);\n    type = card + 71 + maximize_frame + wpa;\n}\nif (vleVirus  = process_compression + proxyUml) {\n    drop_index = 3;\n    pebibyte_horse_cell.fifoInterpreterBittorrent = model;\n    offlineRaid(native.manetTypeface(firmwareMnemonic, malwarePci, 123594));\n}\nif (simplex.card_io(definition(protectorCharacterBackbone, ram), packet(in),\n        noc_gigabit_io)) {\n    architecture *= parameterWindowsDigital;\n    captchaEncryption.vram *= webmaster;\n    rw(ics(newsgroup_png, textWhite, cdn));\n} else {\n    card_source_pdf *= sector(honeypot_it, meme_isp_cursor);\n}  Ego mihi causam parentque levati! Si inulta  tamen  exspectat caelo fugacibus et\ncapiti tamen, aliquid mollito. Cycnorum non iras, temeraria fluctibus aurumque\ncursus et genitor.",
+            "location": "/about/#certe-virginibus-inplent", 
+            "text": "Iovis poscimur adorat Orpheus. Anni est; ter  umida , optari; qui in!  Peleus exspectatum, premunt,  foedera et , quod ruit.\nLabores fugaeque corpore, tu Cybeleia poterat mater, reminiscitur modo, et\nreluxit munera dolor.  driverAutoresponder(ipGuidIvr, blog);\nvar macStringDeprecated = designVram * bing(display);\nif (vle - 2) {\n    copyright(telecommunications_disk_ipod, maximize_lcd_box);\n    keystroke(graymail + onlineZifStandalone, tag, cpl_web + sata);\n} else {\n    case.memory_ssh = abend_scalable_applet(2);\n    type = card + 71 + maximize_frame + wpa;\n}\nif (vleVirus  = process_compression + proxyUml) {\n    drop_index = 3;\n    pebibyte_horse_cell.fifoInterpreterBittorrent = model;\n    offlineRaid(native.manetTypeface(firmwareMnemonic, malwarePci, 123594));\n}\nif (simplex.card_io(definition(protectorCharacterBackbone, ram), packet(in),\n        noc_gigabit_io)) {\n    architecture *= parameterWindowsDigital;\n    captchaEncryption.vram *= webmaster;\n    rw(ics(newsgroup_png, textWhite, cdn));\n} else {\n    card_source_pdf *= sector(honeypot_it, meme_isp_cursor);\n}  Ego mihi causam parentque levati! Si inulta  tamen  exspectat caelo fugacibus et\ncapiti tamen, aliquid mollito. Cycnorum non iras, temeraria fluctibus aurumque\ncursus et genitor.", 
             "title": "Certe virginibus inplent"
-        },
+        }, 
         {
-            "location": "/git/",
-            "text": "Git\n\n\nO que \u00e9 Git?\n\n\nGit \u00e9 um sistema de controle de vers\u00e3o e gerenciamento de c\u00f3digo fonte.\n\n\nPor qu\u00ea usar Git?\n\n\nO Git possui diversas funcionalidades, dentre as principais est\u00e3o:\n\n\n\n\nManter um hist\u00f3rico de vers\u00f5es do c\u00f3digo fonte;\n\n\nPermitir que v\u00e1rias pessoas trabalhem em conjunto em um mesmo projeto minimizando conflitos;\n\n\nSalvar o c\u00f3digo fonte na nuvem, fornecendo assim mais seguran\u00e7a da informa\u00e7\u00e3o e permitindo o acesso a esse c\u00f3digo de qualquer lugar que possua conex\u00e3o com a internet.\n\n\n\n\nCome\u00e7ando a usar o Git\n\n\nComo dito acima, o Git possui muitas funcionalidades, por\u00e9m a princ\u00edpio apenas as mais b\u00e1sicas ser\u00e3o aplicadas no projeto.\n\n\nInstala\u00e7\u00e3o Linux\n\n\nExecute o seguinte comando \nsudo apt-get install git\n\n\nInstala\u00e7\u00e3o Windows\n\n\n\n\nCriar uma conta no \ngithub\n;\n\n\nInstalar o \nGit\n, basta clicar em \ngit\n;\n\n\nEntre no diret\u00f3rio onde deseja que o reposit\u00f3rio seja clonado e digite \ngit clone link_do_repositorio\n. Uma c\u00f3pia do reposit\u00f3rio ser\u00e1 copiada para seu computador local, para trabalhar nela basta fazer modifica\u00e7\u00f5es e seguir o 'worflow' descrito na se\u00e7\u00e3o \nResumindo\n\n\n\n\nComo usar?\n\n\nEssa se\u00e7\u00e3o parte do princ\u00edpio que o usu\u00e1rio j\u00e1 tenha o \ngit\n instalado em seu computador e tamb\u00e9m tenha uma conta no github configurada.\n\n\nVeremos 4 comandos principais, sendo eles o \ngit add\n, \ngit commit\n, \ngit push\n e tamb\u00e9m o \ngit pull\n.\n\n\n\n\ngit add\n: \u00c9 usado para adicionar arquivos para serem monitorados pelo \ngit\n. Toda vez que um arquivo novo for criado e o usu\u00e1rio quiser que ele seja monitorado pelo git, basta executar o comando \ngit add nome_do_arquivo\n. Para praticidade, caso queira que todos os arquivos dentro daquele diret\u00f3rio sejam adicionados ao \ngit\n, use \ngit add -A\n;\n\n\ngit commit\n: \u00c9 usado como um marcador de vers\u00e3o pelo git. Cada vez que o comando \ngit commit\n \u00e9 executado, um ponto de \ncommit\n \u00e9 criado. Esses pontos de \ncommit\n s\u00e3o marcadores os quais o usu\u00e1rio pode us\u00e1-los para reverter altera\u00e7\u00f5es usando seus identificadores \u00fanicos. Ex.: \ngit revert --hard endere\u00e7o_do_ponto_de_commit\n. Esse comando ir\u00e1 reverter todas as altera\u00e7\u00f5es feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando \ngit status\n. Para finalizar, o comando \ngit commit\n exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria: \ngit commit -m \"Altera\u00e7\u00e3o no cadastro de produtos\"\n.\n\n\ngit push\n: \u00c9 com esse comando que todas as altera\u00e7\u00f5es feitas a princ\u00edpio localmente s\u00e3o enviadas para a nuvem. Com esse comando os arquivos estar\u00e3o dispon\u00edveis no link do reposit\u00f3rio do \ngithub\n criado.\n\n\n\n\nResumindo\n\n\nO 'fluxograma' do uso do \ngit\n seguir\u00e1 na grande maioria dos casos a seguinte sequ\u00eancia:\ngit pull\n -\n \ngit add -A\n -\n \ngit commit -m \"mensagem\"\n -\n \ngit push\n.\n\n\nO \ngit pull\n \u00e9 necess\u00e1rio para manter sempre a integridade dos dados na m\u00e1quina local. Ap\u00f3s ele fazemos as modifica\u00e7\u00f5es nos arquivos desejados e adicionamos eles ao git com \ngit add -A\n. Em seguida, para criar um ponto de commit na vers\u00e3o atual executa-se \ngit commit -m \"mensagem\"\n, para finalizar, enviamos tudo para o github com \ngit push\n.",
+            "location": "/git/", 
+            "text": "Git\n\n\nO que \u00e9 Git?\n\n\nGit \u00e9 um sistema de controle de vers\u00e3o e gerenciamento de c\u00f3digo fonte.\n\n\nPor qu\u00ea usar Git?\n\n\nO Git possui diversas funcionalidades, dentre as principais est\u00e3o:\n\n\n\n\nManter um hist\u00f3rico de vers\u00f5es do c\u00f3digo fonte;\n\n\nPermitir que v\u00e1rias pessoas trabalhem em conjunto em um mesmo projeto minimizando conflitos;\n\n\nSalvar o c\u00f3digo fonte na nuvem, fornecendo assim mais seguran\u00e7a da informa\u00e7\u00e3o e permitindo o acesso a esse c\u00f3digo de qualquer lugar que possua conex\u00e3o com a internet.\n\n\n\n\nCome\u00e7ando a usar o Git\n\n\nComo dito acima, o Git possui muitas funcionalidades, por\u00e9m a princ\u00edpio apenas as mais b\u00e1sicas ser\u00e3o aplicadas no projeto.\n\n\nInstala\u00e7\u00e3o Linux\n\n\nExecute o seguinte comando \nsudo apt-get install git\n\n\nInstala\u00e7\u00e3o Windows\n\n\n\n\nCriar uma conta no \ngithub\n ou \ngitlab\n;\n\n\nInstalar o \nGit\n, basta clicar em \ngit\n;\n\n\nEntre no diret\u00f3rio onde deseja que o reposit\u00f3rio seja clonado e digite \ngit clone link_do_repositorio\n. Uma c\u00f3pia do reposit\u00f3rio ser\u00e1 copiada para seu computador local, para trabalhar nela basta fazer modifica\u00e7\u00f5es e seguir o 'worflow' descrito na se\u00e7\u00e3o \nResumindo\n\n\n\n\nComo usar?\n\n\nEssa se\u00e7\u00e3o parte do princ\u00edpio que o usu\u00e1rio j\u00e1 tenha o \ngit\n instalado em seu computador e tamb\u00e9m tenha uma conta no github configurada.\n\n\nVeremos 4 comandos principais, sendo eles o \ngit add\n, \ngit commit\n, \ngit push\n e tamb\u00e9m o \ngit pull\n.\n\n\n\n\ngit add\n: \u00c9 usado para adicionar arquivos para serem monitorados pelo \ngit\n. Toda vez que um arquivo novo for criado e o usu\u00e1rio quiser que ele seja monitorado pelo git, basta executar o comando \ngit add nome_do_arquivo\n. Para praticidade, caso queira que todos os arquivos dentro daquele diret\u00f3rio sejam adicionados ao \ngit\n, use \ngit add -A\n;\n\n\ngit commit\n: \u00c9 usado como um marcador de vers\u00e3o pelo git. Cada vez que o comando \ngit commit\n \u00e9 executado, um ponto de \ncommit\n \u00e9 criado. Esses pontos de \ncommit\n s\u00e3o marcadores os quais o usu\u00e1rio pode us\u00e1-los para reverter altera\u00e7\u00f5es usando seus identificadores \u00fanicos. Ex.: \ngit revert --hard codigo_do_ponto_de_commit\n. Esse comando ir\u00e1 reverter todas as altera\u00e7\u00f5es feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando \ngit log\n. Para finalizar, o comando \ngit commit\n exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria: \ngit commit -m \"Altera\u00e7\u00e3o no cadastro de produtos\"\n.\n\n\ngit push\n: \u00c9 com esse comando que todas as altera\u00e7\u00f5es feitas a princ\u00edpio localmente s\u00e3o enviadas para a nuvem. Com esse comando os arquivos estar\u00e3o dispon\u00edveis no link do reposit\u00f3rio do \ngitlab\n criado.\n\n\n\n\nComo usar o Git no contexto da Hergus?\n\n\nOs arquivos do projeto est\u00e3o dispon\u00edveis no reposit\u00f3rio privado acess\u00edvel pelo link: \nhttps://gitlab.com/hergusinox/totvs-hergusinox\n.\n\n\nPara manter o reposit\u00f3rio atualizado, sempre que altera\u00e7\u00f5es forem feitas no c\u00f3digo fonte, \u00e9 importante fazer \ncommits\n\nfrequentes do c\u00f3digo. Lembrando que um commit \u00e9 apenas uma marca\u00e7\u00e3o na linha do tempo do projeto, o qual pode ser utilizado para\nefetuar outras opera\u00e7\u00f5es como um \npush\n (enviar dados locais para o servidor) ou um \nrevert\n (rollback do projeto para o ponto de\n  commit especificado), dentre outras coisas.\n\n\nExemplo de uso:\n\n\n\n\n\n\nProblema: \"Fazer transfer\u00eancias parciais no almoxarifado, a princ\u00edpio o programa faz apenas transferencias totais.\"\n\n\n\n\n\n\nAdicionar o arquivo a ser alterado \ngit add Almoxarifado.prw\n;\n\n\n\n\nCommitar esse arquivo \ngit commit -m \"almoxarifado.prw funcionando para transferencias totais\"\n;\n\n\nEnviar o arquivo para a nuvem \ngit push\n. (opcional)\n\n\nAgora podemos fazer as altera\u00e7\u00f5es desejadas no arquivo sem medo de n\u00e3o conseguir voltar;\n\n\nN\u00e3o funcionou o que eu queria e quero voltar \u00e0 vers\u00e3o anterior;\n\n\nExecute \ngit status\n para ver os \u00faltimos commits, suas mensagens de commit e seus c\u00f3digos de commit;\n\n\nEscolha o ponto desejado, copie o c\u00f3digo, pressione \nq\n para sair do \ngit log\n;\n\n\nDigite o comando \ngit revert --hard codigo_do_commit\n.\n\n\n\n\n\n\nFuncionou e quero manter as altera\u00e7\u00f5es;\n\n\ngit add -A\n;\n\n\ngit commit -m \"Almoxarifado fazendo transferencias parciais ok\"\n;\n\n\ngit push\n\n\n\n\n\n\n\n\nResumindo\n\n\nO 'fluxograma' do uso do \ngit\n seguir\u00e1 na grande maioria dos casos a seguinte sequ\u00eancia:\ngit pull\n -\n \ngit add -A\n -\n \ngit commit -m \"mensagem\"\n -\n \ngit push\n.\n\n\nO \ngit pull\n \u00e9 necess\u00e1rio para manter sempre a integridade dos dados na m\u00e1quina local, no caso da HERGUS devido \u00e0s modifica\u00e7\u00f5es serem feitas quase todas dentro do servidor esse comando pode n\u00e3o ter muita utilidade. Ap\u00f3s ele fazemos as modifica\u00e7\u00f5es nos arquivos desejados e adicionamos eles ao git com \ngit add -A\n. Em seguida, para criar um ponto de commit na vers\u00e3o atual executa-se \ngit commit -m \"mensagem\"\n, para finalizar, enviamos tudo para o github com \ngit push\n.", 
             "title": "Git"
-        },
+        }, 
         {
-            "location": "/git/#git",
-            "text": "",
+            "location": "/git/#git", 
+            "text": "", 
             "title": "Git"
-        },
+        }, 
         {
-            "location": "/git/#o-que-e-git",
-            "text": "Git \u00e9 um sistema de controle de vers\u00e3o e gerenciamento de c\u00f3digo fonte.",
+            "location": "/git/#o-que-e-git", 
+            "text": "Git \u00e9 um sistema de controle de vers\u00e3o e gerenciamento de c\u00f3digo fonte.", 
             "title": "O que \u00e9 Git?"
-        },
+        }, 
         {
-            "location": "/git/#por-que-usar-git",
-            "text": "O Git possui diversas funcionalidades, dentre as principais est\u00e3o:   Manter um hist\u00f3rico de vers\u00f5es do c\u00f3digo fonte;  Permitir que v\u00e1rias pessoas trabalhem em conjunto em um mesmo projeto minimizando conflitos;  Salvar o c\u00f3digo fonte na nuvem, fornecendo assim mais seguran\u00e7a da informa\u00e7\u00e3o e permitindo o acesso a esse c\u00f3digo de qualquer lugar que possua conex\u00e3o com a internet.",
+            "location": "/git/#por-que-usar-git", 
+            "text": "O Git possui diversas funcionalidades, dentre as principais est\u00e3o:   Manter um hist\u00f3rico de vers\u00f5es do c\u00f3digo fonte;  Permitir que v\u00e1rias pessoas trabalhem em conjunto em um mesmo projeto minimizando conflitos;  Salvar o c\u00f3digo fonte na nuvem, fornecendo assim mais seguran\u00e7a da informa\u00e7\u00e3o e permitindo o acesso a esse c\u00f3digo de qualquer lugar que possua conex\u00e3o com a internet.", 
             "title": "Por qu\u00ea usar Git?"
-        },
+        }, 
         {
-            "location": "/git/#comecando-a-usar-o-git",
-            "text": "Como dito acima, o Git possui muitas funcionalidades, por\u00e9m a princ\u00edpio apenas as mais b\u00e1sicas ser\u00e3o aplicadas no projeto.",
+            "location": "/git/#comecando-a-usar-o-git", 
+            "text": "Como dito acima, o Git possui muitas funcionalidades, por\u00e9m a princ\u00edpio apenas as mais b\u00e1sicas ser\u00e3o aplicadas no projeto.", 
             "title": "Come\u00e7ando a usar o Git"
-        },
+        }, 
         {
-            "location": "/git/#instalacao-linux",
-            "text": "Execute o seguinte comando  sudo apt-get install git",
+            "location": "/git/#instalacao-linux", 
+            "text": "Execute o seguinte comando  sudo apt-get install git", 
             "title": "Instala\u00e7\u00e3o Linux"
-        },
+        }, 
         {
-            "location": "/git/#instalacao-windows",
-            "text": "Criar uma conta no  github ;  Instalar o  Git , basta clicar em  git ;  Entre no diret\u00f3rio onde deseja que o reposit\u00f3rio seja clonado e digite  git clone link_do_repositorio . Uma c\u00f3pia do reposit\u00f3rio ser\u00e1 copiada para seu computador local, para trabalhar nela basta fazer modifica\u00e7\u00f5es e seguir o 'worflow' descrito na se\u00e7\u00e3o  Resumindo",
+            "location": "/git/#instalacao-windows", 
+            "text": "Criar uma conta no  github  ou  gitlab ;  Instalar o  Git , basta clicar em  git ;  Entre no diret\u00f3rio onde deseja que o reposit\u00f3rio seja clonado e digite  git clone link_do_repositorio . Uma c\u00f3pia do reposit\u00f3rio ser\u00e1 copiada para seu computador local, para trabalhar nela basta fazer modifica\u00e7\u00f5es e seguir o 'worflow' descrito na se\u00e7\u00e3o  Resumindo", 
             "title": "Instala\u00e7\u00e3o Windows"
-        },
+        }, 
         {
-            "location": "/git/#como-usar",
-            "text": "Essa se\u00e7\u00e3o parte do princ\u00edpio que o usu\u00e1rio j\u00e1 tenha o  git  instalado em seu computador e tamb\u00e9m tenha uma conta no github configurada.  Veremos 4 comandos principais, sendo eles o  git add ,  git commit ,  git push  e tamb\u00e9m o  git pull .   git add : \u00c9 usado para adicionar arquivos para serem monitorados pelo  git . Toda vez que um arquivo novo for criado e o usu\u00e1rio quiser que ele seja monitorado pelo git, basta executar o comando  git add nome_do_arquivo . Para praticidade, caso queira que todos os arquivos dentro daquele diret\u00f3rio sejam adicionados ao  git , use  git add -A ;  git commit : \u00c9 usado como um marcador de vers\u00e3o pelo git. Cada vez que o comando  git commit  \u00e9 executado, um ponto de  commit  \u00e9 criado. Esses pontos de  commit  s\u00e3o marcadores os quais o usu\u00e1rio pode us\u00e1-los para reverter altera\u00e7\u00f5es usando seus identificadores \u00fanicos. Ex.:  git revert --hard endere\u00e7o_do_ponto_de_commit . Esse comando ir\u00e1 reverter todas as altera\u00e7\u00f5es feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando  git status . Para finalizar, o comando  git commit  exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria:  git commit -m \"Altera\u00e7\u00e3o no cadastro de produtos\" .  git push : \u00c9 com esse comando que todas as altera\u00e7\u00f5es feitas a princ\u00edpio localmente s\u00e3o enviadas para a nuvem. Com esse comando os arquivos estar\u00e3o dispon\u00edveis no link do reposit\u00f3rio do  github  criado.",
+            "location": "/git/#como-usar", 
+            "text": "Essa se\u00e7\u00e3o parte do princ\u00edpio que o usu\u00e1rio j\u00e1 tenha o  git  instalado em seu computador e tamb\u00e9m tenha uma conta no github configurada.  Veremos 4 comandos principais, sendo eles o  git add ,  git commit ,  git push  e tamb\u00e9m o  git pull .   git add : \u00c9 usado para adicionar arquivos para serem monitorados pelo  git . Toda vez que um arquivo novo for criado e o usu\u00e1rio quiser que ele seja monitorado pelo git, basta executar o comando  git add nome_do_arquivo . Para praticidade, caso queira que todos os arquivos dentro daquele diret\u00f3rio sejam adicionados ao  git , use  git add -A ;  git commit : \u00c9 usado como um marcador de vers\u00e3o pelo git. Cada vez que o comando  git commit  \u00e9 executado, um ponto de  commit  \u00e9 criado. Esses pontos de  commit  s\u00e3o marcadores os quais o usu\u00e1rio pode us\u00e1-los para reverter altera\u00e7\u00f5es usando seus identificadores \u00fanicos. Ex.:  git revert --hard codigo_do_ponto_de_commit . Esse comando ir\u00e1 reverter todas as altera\u00e7\u00f5es feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando  git log . Para finalizar, o comando  git commit  exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria:  git commit -m \"Altera\u00e7\u00e3o no cadastro de produtos\" .  git push : \u00c9 com esse comando que todas as altera\u00e7\u00f5es feitas a princ\u00edpio localmente s\u00e3o enviadas para a nuvem. Com esse comando os arquivos estar\u00e3o dispon\u00edveis no link do reposit\u00f3rio do  gitlab  criado.", 
             "title": "Como usar?"
-        },
+        }, 
         {
-            "location": "/git/#resumindo",
-            "text": "O 'fluxograma' do uso do  git  seguir\u00e1 na grande maioria dos casos a seguinte sequ\u00eancia: git pull  -   git add -A  -   git commit -m \"mensagem\"  -   git push .  O  git pull  \u00e9 necess\u00e1rio para manter sempre a integridade dos dados na m\u00e1quina local. Ap\u00f3s ele fazemos as modifica\u00e7\u00f5es nos arquivos desejados e adicionamos eles ao git com  git add -A . Em seguida, para criar um ponto de commit na vers\u00e3o atual executa-se  git commit -m \"mensagem\" , para finalizar, enviamos tudo para o github com  git push .",
+            "location": "/git/#como-usar-o-git-no-contexto-da-hergus", 
+            "text": "Os arquivos do projeto est\u00e3o dispon\u00edveis no reposit\u00f3rio privado acess\u00edvel pelo link:  https://gitlab.com/hergusinox/totvs-hergusinox .  Para manter o reposit\u00f3rio atualizado, sempre que altera\u00e7\u00f5es forem feitas no c\u00f3digo fonte, \u00e9 importante fazer  commits \nfrequentes do c\u00f3digo. Lembrando que um commit \u00e9 apenas uma marca\u00e7\u00e3o na linha do tempo do projeto, o qual pode ser utilizado para\nefetuar outras opera\u00e7\u00f5es como um  push  (enviar dados locais para o servidor) ou um  revert  (rollback do projeto para o ponto de\n  commit especificado), dentre outras coisas.", 
+            "title": "Como usar o Git no contexto da Hergus?"
+        }, 
+        {
+            "location": "/git/#exemplo-de-uso", 
+            "text": "Problema: \"Fazer transfer\u00eancias parciais no almoxarifado, a princ\u00edpio o programa faz apenas transferencias totais.\"    Adicionar o arquivo a ser alterado  git add Almoxarifado.prw ;   Commitar esse arquivo  git commit -m \"almoxarifado.prw funcionando para transferencias totais\" ;  Enviar o arquivo para a nuvem  git push . (opcional)  Agora podemos fazer as altera\u00e7\u00f5es desejadas no arquivo sem medo de n\u00e3o conseguir voltar;  N\u00e3o funcionou o que eu queria e quero voltar \u00e0 vers\u00e3o anterior;  Execute  git status  para ver os \u00faltimos commits, suas mensagens de commit e seus c\u00f3digos de commit;  Escolha o ponto desejado, copie o c\u00f3digo, pressione  q  para sair do  git log ;  Digite o comando  git revert --hard codigo_do_commit .    Funcionou e quero manter as altera\u00e7\u00f5es;  git add -A ;  git commit -m \"Almoxarifado fazendo transferencias parciais ok\" ;  git push", 
+            "title": "Exemplo de uso:"
+        }, 
+        {
+            "location": "/git/#resumindo", 
+            "text": "O 'fluxograma' do uso do  git  seguir\u00e1 na grande maioria dos casos a seguinte sequ\u00eancia: git pull  -   git add -A  -   git commit -m \"mensagem\"  -   git push .  O  git pull  \u00e9 necess\u00e1rio para manter sempre a integridade dos dados na m\u00e1quina local, no caso da HERGUS devido \u00e0s modifica\u00e7\u00f5es serem feitas quase todas dentro do servidor esse comando pode n\u00e3o ter muita utilidade. Ap\u00f3s ele fazemos as modifica\u00e7\u00f5es nos arquivos desejados e adicionamos eles ao git com  git add -A . Em seguida, para criar um ponto de commit na vers\u00e3o atual executa-se  git commit -m \"mensagem\" , para finalizar, enviamos tudo para o github com  git push .", 
             "title": "Resumindo"
-        },
+        }, 
         {
-            "location": "/modulo-01/",
-            "text": "Ativo Fixo (SIGAATF)",
+            "location": "/modulo-01/", 
+            "text": "Ativo Fixo (SIGAATF)", 
             "title": "M\u00f3dulo 1"
-        },
+        }, 
         {
-            "location": "/modulo-01/#ativo-fixo-sigaatf",
-            "text": "",
+            "location": "/modulo-01/#ativo-fixo-sigaatf", 
+            "text": "", 
             "title": "Ativo Fixo (SIGAATF)"
-        },
+        }, 
         {
-            "location": "/modulo-02/",
-            "text": "",
+            "location": "/modulo-02/", 
+            "text": "", 
             "title": "M\u00f3dulo 2"
-        },
+        }, 
         {
-            "location": "/modulo-04/",
-            "text": "Estoques e Custos (SIGAEST)\n\n\nTransfer\u00eancias Entre Armaz\u00e9ns\n\n\nPara fazer uma transfer\u00eancia basta acessar o M\u00f3dulo 4 (SIGAEST), clicar em \nAtualiza\u00e7\u00f5es\n,\nem seguida \nMovimentos Internos\n e por fim \nTransf. mod2\n.\n\n\nAgora voc\u00ea est\u00e1 dentro da janela de transfer\u00eancias, siga os seguintes passos:\n\n\n\n\nClique em \nIncluir\n;\n\n\nSelecione a filial \nHergus Inox\n ou \nJR\n;\n\n\nClique em \nA\u00e7\u00f5es Relacionadas\n e em seguida \nCarregar OP\n;\n\n\nAgora preencha a janela com o c\u00f3digo da OP e os respectivos armaz\u00e9ns envolvidos na transfer\u00eancia.\n\n\n\n\nFeito isso os produtos da OP ser\u00e3o carregados na tela, edite o campo \nArmaz\u00e9m de origem\n com \n01\n ou \n02\n\ncaso este campo esteja preenchido com \n10\n. Isso acontece com produtos que j\u00e1 foram transferidos ao menos\numa vez para o armaz\u00e9m \n10\n.\n\n\n\n\nCertifique-se que o campo armaz\u00e9m destino est\u00e1 preenchido corretamente;\n\n\nEdite a \nquantidade\n de cada produto que deseja fazer a transfer\u00eancia (A coluna \nQuantidade\n indica inicialmente o \nsaldo\n atual daquele produto);\n\n\nCaso n\u00e3o queira transferir determinado produto, clique em cima dele e aperte a tecla \ndelete\n de seu teclado,\nsua linha ficar\u00e1 acinzentada, indicando que este item n\u00e3o ser\u00e1 transferido.\n\n\nCaso desejar, clique em \nA\u00e7\u00f5es Relacionadas\n, \nImprimir\n para imprimir as etiquetas da transfer\u00eancia;\n\n\nPor fim, clique em confirmar para que a transfer\u00eancia seja efetivada.\n\n\n\n\nObserva\u00e7\u00e3o: A transfer\u00eancia s\u00f3 ser\u00e1 feita no sistema caso o usu\u00e1rio clicar em \nConfirmar\n.",
+            "location": "/modulo-04/", 
+            "text": "Estoques e Custos (SIGAEST)\n\n\nTransfer\u00eancias Entre Armaz\u00e9ns\n\n\nPara fazer uma transfer\u00eancia basta acessar o M\u00f3dulo 4 (SIGAEST), clicar em \nAtualiza\u00e7\u00f5es\n,\nem seguida \nMovimentos Internos\n e por fim \nTransf. mod2\n.\n\n\nAgora voc\u00ea est\u00e1 dentro da janela de transfer\u00eancias, siga os seguintes passos:\n\n\n\n\nClique em \nIncluir\n;\n\n\nSelecione a filial \nHergus Inox\n ou \nJR\n;\n\n\nClique em \nA\u00e7\u00f5es Relacionadas\n e em seguida \nCarregar OP\n;\n\n\nAgora preencha a janela com o c\u00f3digo da OP e os respectivos armaz\u00e9ns envolvidos na transfer\u00eancia.\n\n\n\n\nFeito isso os produtos da OP ser\u00e3o carregados na tela, edite o campo \nArmaz\u00e9m de origem\n com \n01\n ou \n02\n\ncaso este campo esteja preenchido com \n10\n. Isso acontece com produtos que j\u00e1 foram transferidos ao menos\numa vez para o armaz\u00e9m \n10\n.\n\n\n\n\nCertifique-se que o campo armaz\u00e9m destino est\u00e1 preenchido corretamente;\n\n\nEdite a \nquantidade\n de cada produto que deseja fazer a transfer\u00eancia (A coluna \nQuantidade\n indica inicialmente o \nsaldo\n atual daquele produto);\n\n\nCaso n\u00e3o queira transferir determinado produto, clique em cima dele e aperte a tecla \ndelete\n de seu teclado,\nsua linha ficar\u00e1 acinzentada, indicando que este item n\u00e3o ser\u00e1 transferido.\n\n\nCaso desejar, clique em \nA\u00e7\u00f5es Relacionadas\n, \nImprimir\n para imprimir as etiquetas da transfer\u00eancia;\n\n\nPor fim, clique em confirmar para que a transfer\u00eancia seja efetivada.\n\n\n\n\nObserva\u00e7\u00e3o: A transfer\u00eancia s\u00f3 ser\u00e1 feita no sistema caso o usu\u00e1rio clicar em \nConfirmar\n.", 
             "title": "M\u00f3dulo 4"
-        },
+        }, 
         {
-            "location": "/modulo-04/#estoques-e-custos-sigaest",
-            "text": "",
+            "location": "/modulo-04/#estoques-e-custos-sigaest", 
+            "text": "", 
             "title": "Estoques e Custos (SIGAEST)"
-        },
+        }, 
         {
-            "location": "/modulo-04/#transferencias-entre-armazens",
-            "text": "Para fazer uma transfer\u00eancia basta acessar o M\u00f3dulo 4 (SIGAEST), clicar em  Atualiza\u00e7\u00f5es ,\nem seguida  Movimentos Internos  e por fim  Transf. mod2 .  Agora voc\u00ea est\u00e1 dentro da janela de transfer\u00eancias, siga os seguintes passos:   Clique em  Incluir ;  Selecione a filial  Hergus Inox  ou  JR ;  Clique em  A\u00e7\u00f5es Relacionadas  e em seguida  Carregar OP ;  Agora preencha a janela com o c\u00f3digo da OP e os respectivos armaz\u00e9ns envolvidos na transfer\u00eancia.   Feito isso os produtos da OP ser\u00e3o carregados na tela, edite o campo  Armaz\u00e9m de origem  com  01  ou  02 \ncaso este campo esteja preenchido com  10 . Isso acontece com produtos que j\u00e1 foram transferidos ao menos\numa vez para o armaz\u00e9m  10 .   Certifique-se que o campo armaz\u00e9m destino est\u00e1 preenchido corretamente;  Edite a  quantidade  de cada produto que deseja fazer a transfer\u00eancia (A coluna  Quantidade  indica inicialmente o  saldo  atual daquele produto);  Caso n\u00e3o queira transferir determinado produto, clique em cima dele e aperte a tecla  delete  de seu teclado,\nsua linha ficar\u00e1 acinzentada, indicando que este item n\u00e3o ser\u00e1 transferido.  Caso desejar, clique em  A\u00e7\u00f5es Relacionadas ,  Imprimir  para imprimir as etiquetas da transfer\u00eancia;  Por fim, clique em confirmar para que a transfer\u00eancia seja efetivada.   Observa\u00e7\u00e3o: A transfer\u00eancia s\u00f3 ser\u00e1 feita no sistema caso o usu\u00e1rio clicar em  Confirmar .",
+            "location": "/modulo-04/#transferencias-entre-armazens", 
+            "text": "Para fazer uma transfer\u00eancia basta acessar o M\u00f3dulo 4 (SIGAEST), clicar em  Atualiza\u00e7\u00f5es ,\nem seguida  Movimentos Internos  e por fim  Transf. mod2 .  Agora voc\u00ea est\u00e1 dentro da janela de transfer\u00eancias, siga os seguintes passos:   Clique em  Incluir ;  Selecione a filial  Hergus Inox  ou  JR ;  Clique em  A\u00e7\u00f5es Relacionadas  e em seguida  Carregar OP ;  Agora preencha a janela com o c\u00f3digo da OP e os respectivos armaz\u00e9ns envolvidos na transfer\u00eancia.   Feito isso os produtos da OP ser\u00e3o carregados na tela, edite o campo  Armaz\u00e9m de origem  com  01  ou  02 \ncaso este campo esteja preenchido com  10 . Isso acontece com produtos que j\u00e1 foram transferidos ao menos\numa vez para o armaz\u00e9m  10 .   Certifique-se que o campo armaz\u00e9m destino est\u00e1 preenchido corretamente;  Edite a  quantidade  de cada produto que deseja fazer a transfer\u00eancia (A coluna  Quantidade  indica inicialmente o  saldo  atual daquele produto);  Caso n\u00e3o queira transferir determinado produto, clique em cima dele e aperte a tecla  delete  de seu teclado,\nsua linha ficar\u00e1 acinzentada, indicando que este item n\u00e3o ser\u00e1 transferido.  Caso desejar, clique em  A\u00e7\u00f5es Relacionadas ,  Imprimir  para imprimir as etiquetas da transfer\u00eancia;  Por fim, clique em confirmar para que a transfer\u00eancia seja efetivada.   Observa\u00e7\u00e3o: A transfer\u00eancia s\u00f3 ser\u00e1 feita no sistema caso o usu\u00e1rio clicar em  Confirmar .", 
             "title": "Transfer\u00eancias Entre Armaz\u00e9ns"
-        },
+        }, 
         {
-            "location": "/modulo-05/",
-            "text": "",
+            "location": "/modulo-05/", 
+            "text": "", 
             "title": "M\u00f3dulo 5"
-        },
+        }, 
         {
-            "location": "/modulo-06/",
-            "text": "",
+            "location": "/modulo-06/", 
+            "text": "", 
             "title": "M\u00f3dulo 6"
-        },
+        }, 
         {
-            "location": "/modulo-07/",
-            "text": "",
+            "location": "/modulo-07/", 
+            "text": "", 
             "title": "M\u00f3dulo 7"
-        },
+        }, 
         {
-            "location": "/modulo-08/",
-            "text": "",
+            "location": "/modulo-08/", 
+            "text": "", 
             "title": "M\u00f3dulo 8"
-        },
+        }, 
         {
-            "location": "/modulo-10/",
-            "text": "Planejamento e Controle de Produ\u00e7\u00e3o (SIGAPCP)\n\n\nApontamento\n\n\nPara fazer um apontamento basta acessar o M\u00f3dulo 10 (SIGAPCP), clicar em \nEspec\u00edficos\n, em seguida \nPainel de Apontamento\n e por fim inserir os dados necess\u00e1rios.",
+            "location": "/modulo-10/", 
+            "text": "Planejamento e Controle de Produ\u00e7\u00e3o (SIGAPCP)\n\n\nApontamento\n\n\nPara fazer um apontamento basta acessar o M\u00f3dulo 10 (SIGAPCP), clicar em \nEspec\u00edficos\n, em seguida \nPainel de Apontamento\n e por fim inserir os dados necess\u00e1rios.", 
             "title": "M\u00f3dulo 10"
-        },
+        }, 
         {
-            "location": "/modulo-10/#planejamento-e-controle-de-producao-sigapcp",
-            "text": "",
+            "location": "/modulo-10/#planejamento-e-controle-de-producao-sigapcp", 
+            "text": "", 
             "title": "Planejamento e Controle de Produ\u00e7\u00e3o (SIGAPCP)"
-        },
+        }, 
         {
-            "location": "/modulo-10/#apontamento",
-            "text": "Para fazer um apontamento basta acessar o M\u00f3dulo 10 (SIGAPCP), clicar em  Espec\u00edficos , em seguida  Painel de Apontamento  e por fim inserir os dados necess\u00e1rios.",
+            "location": "/modulo-10/#apontamento", 
+            "text": "Para fazer um apontamento basta acessar o M\u00f3dulo 10 (SIGAPCP), clicar em  Espec\u00edficos , em seguida  Painel de Apontamento  e por fim inserir os dados necess\u00e1rios.", 
             "title": "Apontamento"
-        },
+        }, 
         {
-            "location": "/modulo-11/",
-            "text": "",
+            "location": "/modulo-11/", 
+            "text": "", 
             "title": "M\u00f3dulo 11"
-        },
+        }, 
         {
-            "location": "/modulo-12/",
-            "text": "",
+            "location": "/modulo-12/", 
+            "text": "", 
             "title": "M\u00f3dulo 12"
-        },
+        }, 
         {
-            "location": "/modulo-13/",
-            "text": "",
+            "location": "/modulo-13/", 
+            "text": "", 
             "title": "M\u00f3dulo 13"
-        },
+        }, 
         {
-            "location": "/modulo-14/",
-            "text": "",
+            "location": "/modulo-14/", 
+            "text": "", 
             "title": "M\u00f3dulo 14"
-        },
+        }, 
         {
-            "location": "/modulo-16/",
-            "text": "",
+            "location": "/modulo-16/", 
+            "text": "", 
             "title": "M\u00f3dulo 16"
-        },
+        }, 
         {
-            "location": "/modulo-17/",
-            "text": "",
+            "location": "/modulo-17/", 
+            "text": "", 
             "title": "M\u00f3dulo 17"
-        },
+        }, 
         {
-            "location": "/modulo-18/",
-            "text": "",
+            "location": "/modulo-18/", 
+            "text": "", 
             "title": "M\u00f3dulo 18"
-        },
+        }, 
         {
-            "location": "/modulo-19/",
-            "text": "",
+            "location": "/modulo-19/", 
+            "text": "", 
             "title": "M\u00f3dulo 19"
-        },
+        }, 
         {
-            "location": "/modulo-20/",
-            "text": "",
+            "location": "/modulo-20/", 
+            "text": "", 
             "title": "M\u00f3dulo 20"
-        },
+        }, 
         {
-            "location": "/modulo-21/",
-            "text": "",
+            "location": "/modulo-21/", 
+            "text": "", 
             "title": "M\u00f3dulo 21"
-        },
+        }, 
         {
-            "location": "/modulo-22/",
-            "text": "",
+            "location": "/modulo-22/", 
+            "text": "", 
             "title": "M\u00f3dulo 22"
-        },
+        }, 
         {
-            "location": "/modulo-23/",
-            "text": "",
+            "location": "/modulo-23/", 
+            "text": "", 
             "title": "M\u00f3dulo 23"
-        },
+        }, 
         {
-            "location": "/modulo-24/",
-            "text": "",
+            "location": "/modulo-24/", 
+            "text": "", 
             "title": "M\u00f3dulo 24"
         }
     ]

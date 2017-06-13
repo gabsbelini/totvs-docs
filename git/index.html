@@ -11,7 +11,7 @@
       
         <link rel="shortcut icon" href="../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.7.0">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.7.1">
     
     
       
@@ -22,7 +22,7 @@
       <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application-c147e0d28f.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-f98ca285f9.css">
       
     
     
@@ -227,6 +227,26 @@
   <a href="#como-usar" title="Como usar?" class="md-nav__link">
     Como usar?
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-usar-o-git-no-contexto-da-hergus" title="Como usar o Git no contexto da Hergus?" class="md-nav__link">
+    Como usar o Git no contexto da Hergus?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-uso" title="Exemplo de uso:" class="md-nav__link">
+    Exemplo de uso:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -566,6 +586,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#como-usar-o-git-no-contexto-da-hergus" title="Como usar o Git no contexto da Hergus?" class="md-nav__link">
+    Como usar o Git no contexto da Hergus?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-uso" title="Exemplo de uso:" class="md-nav__link">
+    Exemplo de uso:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -609,7 +649,7 @@
 <p>Execute o seguinte comando <code>sudo apt-get install git</code></p>
 <h3 id="instalacao-windows">Instalação Windows</h3>
 <ol>
-<li>Criar uma conta no <a href="../www.github.com">github</a>;</li>
+<li>Criar uma conta no <a href="../www.github.com">github</a> ou <a href="https://gitlab.com/users/sign_in">gitlab</a>;</li>
 <li>Instalar o <code>Git</code>, basta clicar em <a href="https://git-scm.com/download/win">git</a>;</li>
 <li>Entre no diretório onde deseja que o repositório seja clonado e digite <code>git clone link_do_repositorio</code>. Uma cópia do repositório será copiada para seu computador local, para trabalhar nela basta fazer modificações e seguir o 'worflow' descrito na seção <a href="#resumindo">Resumindo</a></li>
 </ol>
@@ -618,12 +658,42 @@
 <p>Veremos 4 comandos principais, sendo eles o <code>git add</code>, <code>git commit</code>, <code>git push</code> e também o <code>git pull</code>.</p>
 <ul>
 <li><code>git add</code>: É usado para adicionar arquivos para serem monitorados pelo <code>git</code>. Toda vez que um arquivo novo for criado e o usuário quiser que ele seja monitorado pelo git, basta executar o comando <code>git add nome_do_arquivo</code>. Para praticidade, caso queira que todos os arquivos dentro daquele diretório sejam adicionados ao <code>git</code>, use <code>git add -A</code>;</li>
-<li><code>git commit</code>: É usado como um marcador de versão pelo git. Cada vez que o comando <code>git commit</code> é executado, um ponto de <code>commit</code> é criado. Esses pontos de <code>commit</code> são marcadores os quais o usuário pode usá-los para reverter alterações usando seus identificadores únicos. Ex.: <code>git revert --hard endereço_do_ponto_de_commit</code>. Esse comando irá reverter todas as alterações feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando <code>git status</code>. Para finalizar, o comando <code>git commit</code> exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria: <code>git commit -m "Alteração no cadastro de produtos"</code>.</li>
-<li><code>git push</code>: É com esse comando que todas as alterações feitas a princípio localmente são enviadas para a nuvem. Com esse comando os arquivos estarão disponíveis no link do repositório do <code>github</code> criado.</li>
+<li><code>git commit</code>: É usado como um marcador de versão pelo git. Cada vez que o comando <code>git commit</code> é executado, um ponto de <code>commit</code> é criado. Esses pontos de <code>commit</code> são marcadores os quais o usuário pode usá-los para reverter alterações usando seus identificadores únicos. Ex.: <code>git revert --hard codigo_do_ponto_de_commit</code>. Esse comando irá reverter todas as alterações feitas para o ponto de commit especificado. Esses pontos de commit podem ser vistos usando o comando <code>git log</code>. Para finalizar, o comando <code>git commit</code> exige que seja enviada uma mensagem de commit para cada commit efetuado, portando um exemplo seria: <code>git commit -m "Alteração no cadastro de produtos"</code>.</li>
+<li><code>git push</code>: É com esse comando que todas as alterações feitas a princípio localmente são enviadas para a nuvem. Com esse comando os arquivos estarão disponíveis no link do repositório do <code>gitlab</code> criado.</li>
+</ul>
+<h3 id="como-usar-o-git-no-contexto-da-hergus">Como usar o Git no contexto da Hergus?</h3>
+<p>Os arquivos do projeto estão disponíveis no repositório privado acessível pelo link: <a href="https://gitlab.com/hergusinox/totvs-hergusinox">https://gitlab.com/hergusinox/totvs-hergusinox</a>.</p>
+<p>Para manter o repositório atualizado, sempre que alterações forem feitas no código fonte, é importante fazer <code>commits</code>
+frequentes do código. Lembrando que um commit é apenas uma marcação na linha do tempo do projeto, o qual pode ser utilizado para
+efetuar outras operações como um <code>push</code> (enviar dados locais para o servidor) ou um <code>revert</code> (rollback do projeto para o ponto de
+  commit especificado), dentre outras coisas.</p>
+<h4 id="exemplo-de-uso">Exemplo de uso:</h4>
+<ul>
+<li>
+<p>Problema: "Fazer transferências parciais no almoxarifado, a princípio o programa faz apenas transferencias totais."</p>
+</li>
+<li>
+<p>Adicionar o arquivo a ser alterado <code>git add Almoxarifado.prw</code>;</p>
+</li>
+<li>Commitar esse arquivo <code>git commit -m "almoxarifado.prw funcionando para transferencias totais"</code>;</li>
+<li>Enviar o arquivo para a nuvem <code>git push</code>. (opcional)</li>
+<li>Agora podemos fazer as alterações desejadas no arquivo sem medo de não conseguir voltar;</li>
+<li>Não funcionou o que eu queria e quero voltar à versão anterior;<ol>
+<li>Execute <code>git status</code> para ver os últimos commits, suas mensagens de commit e seus códigos de commit;</li>
+<li>Escolha o ponto desejado, copie o código, pressione <code>q</code> para sair do <code>git log</code>;</li>
+<li>Digite o comando <code>git revert --hard codigo_do_commit</code>.</li>
+</ol>
+</li>
+<li>Funcionou e quero manter as alterações;<ol>
+<li><code>git add -A</code>;</li>
+<li><code>git commit -m "Almoxarifado fazendo transferencias parciais ok"</code>;</li>
+<li><code>git push</code></li>
+</ol>
+</li>
 </ul>
 <h2 id="resumindo">Resumindo</h2>
 <p>O 'fluxograma' do uso do <code>git</code> seguirá na grande maioria dos casos a seguinte sequência:<code>git pull</code> -&gt; <code>git add -A</code> -&gt; <code>git commit -m "mensagem"</code> -&gt; <code>git push</code>.</p>
-<p>O <code>git pull</code> é necessário para manter sempre a integridade dos dados na máquina local. Após ele fazemos as modificações nos arquivos desejados e adicionamos eles ao git com <code>git add -A</code>. Em seguida, para criar um ponto de commit na versão atual executa-se <code>git commit -m "mensagem"</code>, para finalizar, enviamos tudo para o github com <code>git push</code>.</p>
+<p>O <code>git pull</code> é necessário para manter sempre a integridade dos dados na máquina local, no caso da HERGUS devido às modificações serem feitas quase todas dentro do servidor esse comando pode não ter muita utilidade. Após ele fazemos as modificações nos arquivos desejados e adicionamos eles ao git com <code>git add -A</code>. Em seguida, para criar um ponto de commit na versão atual executa-se <code>git commit -m "mensagem"</code>, para finalizar, enviamos tudo para o github com <code>git push</code>.</p>
                 
                   
                 
