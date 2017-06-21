@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/modulo-05/", 
-            "text": "Faturamento (SIGAFAT)\n\n\nPedido de Venda\n\n\nPara visualizar, alterar, incluir ou imprimir pedidos de venda siga os seguintes passos:\n\n\n\n\nAcesse o m\u00f3dulo 5 (SIGAFAT);\n\n\nClique em Atualiza\u00e7\u00f5es na aba esquerda do TOTVS;\n\n\nClique em Pedidos e em seguida Pedido de Venda;\n\n\nSelecione algum pedido e clique no bot\u00e3o de a\u00e7\u00e3o desejado.\n\n\n\n\nImprimir Etiquetas do Pedido\n\n\n\n\nSelecione o pedido que deseja imprimir a(s) etiquetas;\n\n\nClique em a\u00e7\u00f5es relacionadas;\n\n\nClique em Etiqueta Produto ou Etiqueta Ipiranga caso o produto seja da Ipiranga.", 
+            "text": "Faturamento (SIGAFAT)\n\n\nPedido de Venda\n\n\nPara visualizar, alterar, incluir ou imprimir pedidos de venda siga os seguintes passos:\n\n\n\n\nAcesse o m\u00f3dulo 5 (SIGAFAT);\n\n\nClique em \nAtualiza\u00e7\u00f5es\n na aba esquerda do TOTVS;\n\n\nClique em \nPedidos\n e em seguida \nPedido de Venda\n;\n\n\nSelecione algum pedido e clique no bot\u00e3o de a\u00e7\u00e3o desejado.\n\n\n\n\nImprimir Etiquetas do Pedido\n\n\n\n\nSelecione o pedido que deseja imprimir a(s) etiquetas;\n\n\nClique em a\u00e7\u00f5es relacionadas;\n\n\nClique em \nEtiqueta Produto\n ou \nEtiqueta Ipiranga\n caso o produto seja da Ipiranga.", 
             "title": "M\u00f3dulo 5"
         }, 
         {
@@ -147,12 +147,12 @@
         }, 
         {
             "location": "/modulo-05/#pedido-de-venda", 
-            "text": "Para visualizar, alterar, incluir ou imprimir pedidos de venda siga os seguintes passos:   Acesse o m\u00f3dulo 5 (SIGAFAT);  Clique em Atualiza\u00e7\u00f5es na aba esquerda do TOTVS;  Clique em Pedidos e em seguida Pedido de Venda;  Selecione algum pedido e clique no bot\u00e3o de a\u00e7\u00e3o desejado.", 
+            "text": "Para visualizar, alterar, incluir ou imprimir pedidos de venda siga os seguintes passos:   Acesse o m\u00f3dulo 5 (SIGAFAT);  Clique em  Atualiza\u00e7\u00f5es  na aba esquerda do TOTVS;  Clique em  Pedidos  e em seguida  Pedido de Venda ;  Selecione algum pedido e clique no bot\u00e3o de a\u00e7\u00e3o desejado.", 
             "title": "Pedido de Venda"
         }, 
         {
             "location": "/modulo-05/#imprimir-etiquetas-do-pedido", 
-            "text": "Selecione o pedido que deseja imprimir a(s) etiquetas;  Clique em a\u00e7\u00f5es relacionadas;  Clique em Etiqueta Produto ou Etiqueta Ipiranga caso o produto seja da Ipiranga.", 
+            "text": "Selecione o pedido que deseja imprimir a(s) etiquetas;  Clique em a\u00e7\u00f5es relacionadas;  Clique em  Etiqueta Produto  ou  Etiqueta Ipiranga  caso o produto seja da Ipiranga.", 
             "title": "Imprimir Etiquetas do Pedido"
         }, 
         {
